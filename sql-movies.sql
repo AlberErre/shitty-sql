@@ -1,7 +1,7 @@
 CREATE TABLE CHARACTERS(
    ID INT PRIMARY KEY      ,
    NAME           CHAR(50) ,
-   SURNAME        CHAR(50  ,
+   SURNAME        CHAR(50) ,
    NICKNAME       CHAR(20) ,
    POWER          CHAR(50) ,
    WORK           CHAR(50) ,
