@@ -15,7 +15,7 @@ CREATE TABLE SERIES(
    DESCRIPTION          CHAR(200)         NOT NULL,
    YEAR                 YEAR              NOT NULL,
    START                YEAR              NOT NULL,
-   NSEASONS             CHAR(2)           NOT NULL
+   NSEASONS             VARCHAR(2)           NOT NULL
 );
 
 INSERT INTO SERIES VALUES (1, 'Defenders', 'They denfend things', 2016, 'S3', 5);
