@@ -1,0 +1,3 @@
+select *
+from CHARACTERS_SERIES
+join SERIES on CHARACTERS_SERIES.id_serie = SERIES.ID
