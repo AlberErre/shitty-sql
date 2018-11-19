@@ -6,16 +6,16 @@ CREATE TABLE CHARACTERS(
    POWER          CHAR(50) ,
    WORK           CHAR(50) ,
    AGE            INT      ,
-   SEX            CHAR(5)
+   SEX            CHAR(1)
 );
 
 CREATE TABLE SERIES(
-   ID INT PRIMARY KEY      NOT NULL,
-   TITLE                CHAR(50) NOT NULL,
-   DESC                 CHAR(50) NOT NULL,
-   YEAR                 CHAR(20) NOT NULL,
-   START                CHAR(50) NOT NULL,
-   NSEASONS             INT      NOT NULL
+   ID                   INT PRIMARY KEY   NOT NULL,
+   TITLE                CHAR(50)          NOT NULL,
+   DESCRIPTION          CHAR(200)         NOT NULL,
+   YEAR                 YEAR              NOT NULL,
+   START                YEAR              NOT NULL,
+   NSEASONS             CHAR(2)           NOT NULL
 );
 
 INSERT INTO SERIES VALUES (1, 'Defenders', 'They denfend things', 2016, 'S3', 5);
